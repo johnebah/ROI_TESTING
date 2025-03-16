@@ -1,7 +1,7 @@
 <?php
 function callGeminiAPI($query) {
     // Replace with your actual Gemini API key
-    $api_key = "AIzaSyA83sBR4RYnpL1VMVmJS4AIFi2JCejW_h4";
+    $api_key = "PUT_YOUR_GEMINI_API_KEY";
     // API endpoint
     $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=" . $api_key;
     // Set up the request payload
